@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* General */
+
+:root {
+	--dark-pink: #f67c92;
+	--light-gray: #777;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.25rem;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+button {
+	outline: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	margin-right: 6.25rem;
+	margin-left: 6.25rem;
+}
+
+/*  Header Section */
+
+#header {
+	height: 100vh;
+	background-image: url(images/background.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.logo {
+	margin-top: 1.875rem;
+	width: 6.25rem;
+}
+
+.header-text {
+	max-width: 21.875rem;
+	margin-top: 8.75rem;
+}
+
+.header-text button {
+	margin-top: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+
+h1 {
+	font-size: 2.125rem;
+}
+
+p {
+	font-size: 0.9375rem;
+	line-height: 1.125rem;
+	color: var(--light-gray);
+}
+
+.square {
+	display: inline-block;
+	height: 0.75rem;
+	width: 0.75rem;
+	background: var(--dark-pink);
+	margin: 0.9375rem 0;
+}
+
+.btn-primary {
+	padding: 1.125rem 2.5rem;
+	background: transparent;
+	border: 0.125rem solid var(--dark-pink);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.line {
+	line-height: 0.5rem;
+}
+
+.line-1 {
+	display: inline-block;
+	width: 0.9375rem;
+	height: 0.9375rem;
+	background-color: var(--dark-pink);
+}
+
+.line-2 {
+	display: inline-block;
+	width: 5rem;
+	height: 0.0625rem;
+	background-color: var(--dark-pink);
+}
+
+.line-3 {
+	display: inline-block;
+	width: 3.75rem;
+	height: 0.0625rem;
+	background-color: var(--dark-pink);
+}
