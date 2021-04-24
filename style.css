@@ -5,6 +5,7 @@
 :root {
 	--dark-pink: #f67c92;
 	--light-gray: #777;
+	--white: #fff;
 }
 
 *,
@@ -116,4 +117,35 @@ p {
 	width: 3.75rem;
 	height: 0.0625rem;
 	background-color: var(--dark-pink);
+}
+
+/*  Nav Section */
+
+#navBar {
+	width: 15.625rem;
+	height: 100vh;
+	position: fixed;
+	right: -15.625rem;
+	top: 0;
+	background: var(--dark-pink);
+	z-index: 2;
+	transition: 1s;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin: 3.125rem 1.25rem;
+}
+
+nav ul li a {
+	color: var(--white);
+}
+
+#btn-menu {
+	width: 3.125rem;
+	position: fixed;
+	right: 4.0625rem;
+	top: 2.1875rem;
+	z-index: 2;
+	cursor: pointer;
 }
