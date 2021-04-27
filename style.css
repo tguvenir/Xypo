@@ -121,7 +121,7 @@ p {
 
 /*  Nav Section */
 
-#navBar {
+#navbar {
 	width: 15.625rem;
 	height: 100vh;
 	position: fixed;
@@ -148,4 +148,37 @@ nav ul li a {
 	top: 2.1875rem;
 	z-index: 2;
 	cursor: pointer;
+}
+
+/* About Section */
+
+#about {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 6.25rem 0;
+}
+
+.about-left {
+	flex-basis: 50%;
+}
+
+.about-left img {
+	width: 100%;
+}
+
+.about-right {
+	flex-basis: 50%;
+	text-align: right;
+}
+
+.about-text {
+	display: inline-block;
+	max-width: 31.25rem;
+	margin-right: 6.25rem;
+}
+
+.about-text blockquote {
+	margin: 3.125rem 0 0.625rem;
+	font-size: 1.75rem;
 }
