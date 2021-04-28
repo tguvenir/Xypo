@@ -182,3 +182,41 @@ nav ul li a {
 	margin: 3.125rem 0 0.625rem;
 	font-size: 1.75rem;
 }
+
+/* Features Section */
+
+#features {
+	padding-top: 3.125rem;
+	padding-bottom: 3.125rem;
+}
+
+.features-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+}
+
+.features-col {
+	flex-basis: 25%;
+	text-align: center;
+}
+
+.features-col img {
+	width: 6.25rem;
+}
+
+.features-col h4 {
+	margin-bottom: 0.9375rem;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
+.features-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5rem auto 0;
+}
