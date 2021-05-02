@@ -9,3 +9,5 @@ btnMenu.onclick = function () {
 		navBar.style.right = '-250px';
 	}
 };
+
+var scroll = new SmoothScroll('a[href*="#"]');
